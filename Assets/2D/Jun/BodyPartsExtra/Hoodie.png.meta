@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: b5717035159325945b1e66d50b699a94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6283086519051686611
+    second: Hoodie_0
+  - first:
+      213: -7608262464090436830
+    second: Hoodie_1
+  - first:
+      213: -3942710333707803184
+    second: Hoodie_2
+  - first:
+      213: -789367818352637081
+    second: Hoodie_3
+  - first:
+      213: 3953110384772936729
+    second: Hoodie_4
+  - first:
+      213: -6614288412981165267
+    second: Hoodie_5
+  - first:
+      213: 832636444277284726
+    second: Hoodie_6
+  - first:
+      213: -5320712098839110551
+    second: Hoodie_7
+  - first:
+      213: -9037480065235014152
+    second: Hoodie_8
+  - first:
+      213: -8426690478514505183
+    second: Hoodie_9
+  - first:
+      213: -8351034023452437888
+    second: Hoodie_10
+  - first:
+      213: 4637290960694053597
+    second: Hoodie_11
+  - first:
+      213: 69233985971350344
+    second: Hoodie_12
+  - first:
+      213: 7147646951377138340
+    second: Hoodie_13
+  - first:
+      213: 4002885033751830001
+    second: Hoodie_14
+  - first:
+      213: 407687109748512325
+    second: Hoodie_15
+  - first:
+      213: 7018188030643596888
+    second: Hoodie_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoodie_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1942
+        width: 541
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d21f1d56e1023750800000000000000
+      internalID: 6283086519051686611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_1
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2007
+        width: 162
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b83f569950a6690800000000000000
+      internalID: -7608262464090436830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1264
+        width: 578
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5a51347dda849c0800000000000000
+      internalID: -3942710333707803184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1779
+        width: 162
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b47f5c62a9b05f0800000000000000
+      internalID: -789367818352637081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_4
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1634
+        width: 591
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9147c4253f44cd630800000000000000
+      internalID: 3953110384772936729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1591
+        width: 25
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23864e7bb35534a0800000000000000
+      internalID: -6614288412981165267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_6
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 938
+        width: 324
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f11304f6e1e8b00800000000000000
+      internalID: 832636444277284726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1308
+        width: 25
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c529459880926b0800000000000000
+      internalID: -5320712098839110551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_8
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 903
+        width: 286
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd2ef663cb649280800000000000000
+      internalID: -9037480065235014152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_9
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 909
+        width: 306
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12af9f308a16e0b80800000000000000
+      internalID: -8426690478514505183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_10
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1462
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0829ae42dca2b1c80800000000000000
+      internalID: -8351034023452437888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1379
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda8c403f87fa5040800000000000000
+      internalID: 4637290960694053597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 83
+        width: 718
+        height: 1088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84be43481f7f5f000800000000000000
+      internalID: 69233985971350344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_13
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 74
+        width: 324
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2fcbc480b813360800000000000000
+      internalID: 7147646951377138340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_14
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 12
+        width: 287
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd5181eaba1d8730800000000000000
+      internalID: 4002885033751830001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_15
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 41
+        width: 303
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546d01c244568a500800000000000000
+      internalID: 407687109748512325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodie_16
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 596
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ee86574dc956160800000000000000
+      internalID: 7018188030643596888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hoodie_0: 6283086519051686611
+      Hoodie_1: -7608262464090436830
+      Hoodie_10: -8351034023452437888
+      Hoodie_11: 4637290960694053597
+      Hoodie_12: 69233985971350344
+      Hoodie_13: 7147646951377138340
+      Hoodie_14: 4002885033751830001
+      Hoodie_15: 407687109748512325
+      Hoodie_16: 7018188030643596888
+      Hoodie_2: -3942710333707803184
+      Hoodie_3: -789367818352637081
+      Hoodie_4: 3953110384772936729
+      Hoodie_5: -6614288412981165267
+      Hoodie_6: 832636444277284726
+      Hoodie_7: -5320712098839110551
+      Hoodie_8: -9037480065235014152
+      Hoodie_9: -8426690478514505183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
