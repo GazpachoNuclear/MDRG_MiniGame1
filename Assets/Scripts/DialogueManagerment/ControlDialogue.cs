@@ -51,6 +51,8 @@ public class ControlDialogue : MonoBehaviour
 
     public void NextLine()
     {
+        decisionPanel.SetActive(false);
+
         index = -1;
         lineSequence++;
         string IDref = currentDialogueID + "_" + lineSequence.ToString();
@@ -76,6 +78,7 @@ public class ControlDialogue : MonoBehaviour
             if (!string.IsNullOrWhiteSpace(data.myStructuredData.rows[index].parameter[4]))
             {
                 nextButton.SetActive(false);
+                decisionPanel.SetActive(true);
 
                 for (int i = 0; i < data.myStructuredData.rows[index].parameter[4].Split("***").Length; i++)
                 {
