@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector" at "2025-11-09T06:46:58.4834006Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector" at "2025-11-02T10:14:46.1916382Z"
-Date: 2025-11-02T10:14:46Z
+Date: 2025-11-09T06:46:58Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.2.6f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/factorial-omega-win-64/MiniGame2D/MDRG-mini2D/MDRG_MiniGame1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53803
+53474
 -licensingIpc
 LicenseClient-Hector
 -job-worker-count
@@ -65,27 +65,27 @@ D:/factorial-omega-win-64/MiniGame2D/MDRG-mini2D/MDRG_MiniGame1
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19912]  Target information:
+Player connection [17116]  Target information:
 
-Player connection [19912]  * "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 577393953 [EditorId] 577393953 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G081KS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17116]  * "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 675676320 [EditorId] 675676320 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G081KS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19912] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19912] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17116] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16304, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18248, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              e21e2a16f6024d3e96a3f0211075109d
-  Correlation Id:          917798f2af693c5c35c11a97856c9b15
-  External correlation Id: 8753550576461160741
+  Session Id:              acb7360712bc424eb470e399da4e920f
+  Correlation Id:          5c7fa5d42ca7aa34b9a356f05af941ae
+  External correlation Id: 800828434598106996
   Machine Id:              XT8v1AEGxaRv6DD9oeST8EnIHBY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Hector" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector-notifications" at "2025-11-02T10:14:46.2832422Z"
-[Licensing::Module] Licensing Background thread has ended after 0.09s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Hector" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector-notifications" at "2025-11-09T06:46:58.5592705Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -122,41 +122,41 @@ Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngine
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.017413 seconds.
-- Loaded All Assemblies, in  0.785 seconds
+Registered in 0.009926 seconds.
+- Loaded All Assemblies, in  0.618 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 423 ms
+Android Extension - Scanning For ADB Devices 356 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.073 seconds
-Domain Reload Profiling: 1843ms
-	BeginReloadAssembly (235ms)
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 1545ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (333ms)
-		LoadAssemblies (221ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (193ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (321ms)
-				TypeCache.ScanAssembly (294ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (211ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1075ms)
+	FinalizeReload (943ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1015ms)
+		SetupLoadedEditorAssemblies (881ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (617ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
+			InitializePlatformSupportModulesInManaged (503ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,8 +166,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.505 seconds
-Refreshing native plugins compatible for Editor in 6.60 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.379 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -175,76 +175,261 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.399 seconds
-Domain Reload Profiling: 2874ms
-	BeginReloadAssembly (317ms)
+- Finished resetting the current domain, in  1.207 seconds
+Domain Reload Profiling: 2561ms
+	BeginReloadAssembly (289ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (1002ms)
-		LoadAssemblies (674ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (923ms)
+		LoadAssemblies (664ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (489ms)
-			TypeCache.Refresh (362ms)
-				TypeCache.ScanAssembly (337ms)
-			BuildScriptInfoCaches (102ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1400ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (307ms)
+				TypeCache.ScanAssembly (283ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1207ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1139ms)
+		SetupLoadedEditorAssemblies (988ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (272ms)
-			ProcessInitializeOnLoadAttributes (612ms)
-			ProcessInitializeOnLoadMethodAttributes (211ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (522ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 5.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6803 unused Assets / (7.1 MB). Loaded Objects now: 7489.
-Memory consumption went from 143.5 MB to 136.5 MB.
-Total: 20.215100 ms (FindLiveObjects: 1.308200 ms CreateObjectMapping: 1.492300 ms MarkObjects: 10.289700 ms  DeleteObjects: 7.122900 ms)
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6801 unused Assets / (6.1 MB). Loaded Objects now: 7491.
+Memory consumption went from 143.1 MB to 136.9 MB.
+Total: 14.782800 ms (FindLiveObjects: 0.756800 ms CreateObjectMapping: 1.323100 ms MarkObjects: 8.931800 ms  DeleteObjects: 3.770000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15709.436456 seconds.
-  path: Assets/Scenes/Obstacles.unity
-  artifactKey: Guid(168b5dfa31fa1ef46abac2763e86f361) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Obstacles.unity using Guid(168b5dfa31fa1ef46abac2763e86f361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a193bb8f64dc171520cdf3549f021b2') in 0.2210525 seconds
+  Time since last request: 10148.945736 seconds.
+  path: Assets/2D/Characters/Jun/JunRigged.prefab
+  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289f12018f5a6accdbbe15a44d0dd122') in 0.6124833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 593
+
+========================================================================
+Received Import Request.
+  Time since last request: 3127.246987 seconds.
+  path: Assets/2D/Characters/Jun/JunRigged.prefab
+  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51f8de281d4310e76decd1e7802f0736') in 0.3530252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 656
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Animations/JunRigged/NormalSpeak.anim
+  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/NormalSpeak.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01c6c106f180a95d2520117bb51100db') in 0.0231283 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/Prefabs/Target.prefab
-  artifactKey: Guid(94b8bcb93433f5b4ab056052cca60ab3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Resources/Prefabs/Target.prefab using Guid(94b8bcb93433f5b4ab056052cca60ab3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d3d478e9bdc1ef8758b05f0653e15e') in 0.1213232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scripts/SpecificEvents/Obstacles/ObstacleSpawner.cs
-  artifactKey: Guid(d129a8038adf1c749b738e90a07e8678) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/SpecificEvents/Obstacles/ObstacleSpawner.cs using Guid(d129a8038adf1c749b738e90a07e8678) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71bea1214ea279f7ba8346b2db1dc55d') in 0.0055128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.866197 seconds.
-  path: Assets/2D/Characters/Anon/Anon.svg
-  artifactKey: Guid(d89fc2414eb14394bbc6b48c8af2a257) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Anon/Anon.svg using Guid(d89fc2414eb14394bbc6b48c8af2a257) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cff9127152ddfdbf500dc767f028525c') in 0.0053605 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/JunRigged/Idle.anim
+  artifactKey: Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/Idle.anim using Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3465d24b3f25fa339584f2fe1f4d883c') in 0.0068353 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/JunRigged/IdleHappy.anim
+  artifactKey: Guid(557717d474dde6a4789ba98a7b5f1655) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/IdleHappy.anim using Guid(557717d474dde6a4789ba98a7b5f1655) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e54931b274a618b73bb67c1649517970') in 0.0068912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animations/JunRigged/SadSpeak.anim
+  artifactKey: Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SadSpeak.anim using Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67dafff5dc40d6f03e676b6f4234935c') in 0.0090775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animations/JunRigged/IdleAngry.anim
+  artifactKey: Guid(6a86e77a896c6514d8404f9abc91b244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/IdleAngry.anim using Guid(6a86e77a896c6514d8404f9abc91b244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea33fd2311c0300c1c294159ff1f58ad') in 0.0071252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.494758 seconds.
+  path: Assets/Animations/JunRigged/JunRigged.controller
+  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10932acc03c336ecb275695950967ee9') in 0.013019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/JunRigged/IdleAngry.anim
+  artifactKey: Guid(6a86e77a896c6514d8404f9abc91b244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/IdleAngry.anim using Guid(6a86e77a896c6514d8404f9abc91b244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd68335f9f3fc8e95b0cd624b986900b6') in 0.0073989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 632.307462 seconds.
+  path: Assets/Animations/JunRigged/IdleActually.anim
+  artifactKey: Guid(db25fec06921e5a429124578a6e15d12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/IdleActually.anim using Guid(db25fec06921e5a429124578a6e15d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e8d00c8f926f735b0545a0daade0f16') in 0.0081805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations/JunRigged/SpeakHappy.anim
+  artifactKey: Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakHappy.anim using Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '876968cdf6d4f633ef9ac3ccc3f0b440') in 0.007302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.013284 seconds.
+  path: Assets/Animations/JunRigged/Hello.anim
+  artifactKey: Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/Hello.anim using Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b945521cdb3261eda4bfe1b3a15cf932') in 0.0080834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 620.589852 seconds.
+  path: Assets/Animations/JunRigged/SpeakCalmDown.anim
+  artifactKey: Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakCalmDown.anim using Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04a67dd03df22cd41c7f48b69d74d4c0') in 0.0103951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Animations/JunRigged/IdleCalmDown.anim
+  artifactKey: Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/IdleCalmDown.anim using Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76e08f8ebf85b32542f34a23236e67e1') in 0.0072895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.833460 seconds.
+  path: Assets/Animations/JunRigged/LookLeft.anim
+  artifactKey: Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/LookLeft.anim using Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2da14aa78a2fb707643a64efa042a2ec') in 0.0175454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.242633 seconds.
+  path: Assets/Animations/JunRigged/LookRight.anim
+  artifactKey: Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/LookRight.anim using Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9531f5f7cbead0735e589f26d29374ce') in 0.0073659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.018231 seconds.
+  path: Assets/Animations/JunRigged/JunRigged.controller
+  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87fcf81afab48e27dea83994a7f6fd0b') in 0.024224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.043415 seconds.
+  path: Assets/Animations/JunRigged/LookDown.anim
+  artifactKey: Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/LookDown.anim using Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90a546179a20b8ac9b8033589fc170f8') in 0.0108881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 521.973113 seconds.
+  path: Assets/Animations/JunRigged/JunRigged.controller
+  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aae8e9ace2288fb520e93c832ac9c309') in 0.030744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations/JunRigged/SpeakNormal.anim
+  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakNormal.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee85b49d4c81b36ab7ca45f2da94ca22') in 0.0153185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/JunRigged/SpeakCalmDown.anim
+  artifactKey: Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakCalmDown.anim using Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '891623d6d56013b08da30d1c7851fca6') in 0.0085044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/JunRigged/LookRight.anim
+  artifactKey: Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/LookRight.anim using Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db49c0c7ed07e97e0af750f884d105d9') in 0.007717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/JunRigged/SpeakActually.anim
+  artifactKey: Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakActually.anim using Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f8de36149fd2ca5573e1c66468905ae') in 0.0077701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animations/JunRigged/SpeakSad.anim
+  artifactKey: Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/SpeakSad.anim using Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f51b163a9fd31e1019084322a50eb0') in 0.0077813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.994574 seconds.
+  path: Assets/Animations/JunRigged/GunsUp.anim
+  artifactKey: Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/GunsUp.anim using Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '550007b10d5784cff83abe4f97f02af4') in 0.010081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.298119 seconds.
+  path: Assets/Animations/JunRigged/GunsUp.anim
+  artifactKey: Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/GunsUp.anim using Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c612a5bf91e0557c4450178bf0e67246') in 0.0085116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/JunRigged/Think.anim
+  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/JunRigged/Think.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd1f65135a663987cfc305fe75a329f') in 0.0075355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+AssetImportWorkerClient::OnTransportError - code=10054 error=Se ha forzado la interrupción de una conexión existente por el host remoto.
