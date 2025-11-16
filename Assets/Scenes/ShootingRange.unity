@@ -849,6 +849,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988198728}
   m_CullTransparentMesh: 1
+--- !u!4 &1175160468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+  m_PrefabInstance: {fileID: 1453591550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1284309123
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +944,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1453591550
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1668884152}
+    m_Modifications:
+    - target: {fileID: 300041568655969454, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_Name
+      value: SnowflakesParticlesBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03912
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91056
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978826774651603991, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027074576284626051, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7150b0f7a0ff11f488b0dd397575a676, type: 3}
 --- !u!1 &1562226431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1250,7 @@ Transform:
   - {fileID: 1844991752}
   - {fileID: 733640894}
   - {fileID: 1284309124}
+  - {fileID: 1175160468}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723208650

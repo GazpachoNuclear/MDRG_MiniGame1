@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Obstacles.unity
+    guid: 168b5dfa31fa1ef46abac2763e86f361
+  - enabled: 1
+    path: Assets/Scenes/Outside1.unity
+    guid: c183824aac03ca54b8a1ded6bfe13b82
+  - enabled: 1
+    path: Assets/Scenes/ShootingRange.unity
+    guid: eb31a7b65609bc54ab16ea16ab002c13
+  - enabled: 1
+    path: Assets/Scenes/Outside2.unity
+    guid: c6899dcb75cf16444a8f60ffa7f73bda
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
