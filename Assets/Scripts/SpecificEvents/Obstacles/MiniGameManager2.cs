@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MiniGameManager2 : MonoBehaviour
 {
@@ -10,7 +11,15 @@ public class MiniGameManager2 : MonoBehaviour
     public GameObject player;
     public bool left;
     public bool right;
-    
+
+    public Camera auxCam;
+
+    private void Start()
+    {
+        auxCam.GetComponent<CameraMovement>().speed = 0.2f;
+        auxCam.GetComponent<CameraMovement>().trembleIntensity = 0.2f;
+        auxCam.GetComponent<CameraMovement>().tremble = true;
+    }
 
     // Update is called once per frame
     void Update()
@@ -19,7 +28,9 @@ public class MiniGameManager2 : MonoBehaviour
 
         if (timer > 110)
         {
-            //Change scene to successful
+            //Next scene, you won
+            ControlDialogue.currentDialogueID = "Sled_1";
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         if (left)

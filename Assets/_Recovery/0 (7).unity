@@ -175,7 +175,6 @@ GameObject:
   m_Component:
   - component: {fileID: 261802955}
   - component: {fileID: 261802956}
-  - component: {fileID: 261802957}
   m_Layer: 0
   m_Name: MinigameManager
   m_TagString: Untagged
@@ -218,18 +217,6 @@ MonoBehaviour:
   auxCam: {fileID: 646832597}
   ammo: 5
   covered: 0
---- !u!114 &261802957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261802953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a35970d13d0774bbc86bbcac1addf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MiniGameActivator
 --- !u!1 &324878041
 GameObject:
   m_ObjectHideFlags: 0

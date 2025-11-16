@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class MiniGameManager : MonoBehaviour
 
     public GameObject UIcover;
     public GameObject UIuncover;
+    public GameObject Hit;
+
+    public Camera auxCam;
 
     public int ammo = 5;
 
@@ -18,6 +22,12 @@ public class MiniGameManager : MonoBehaviour
     private float timer2 = 0;
 
     private float playtime = 134;
+
+    private void Start()
+    {
+        auxCam.GetComponent<CameraMovement>().speed = 12;
+        auxCam.GetComponent<CameraMovement>().tremble = false;
+    }
 
     // Update is called once per frame
     void Update()
@@ -30,13 +40,16 @@ public class MiniGameManager : MonoBehaviour
             if (ammo < 5)
             {
                 ammo++;
+                UpdateUIammo();
                 timer = 0;
             }
         }
 
         if (timer2 > playtime)
         {
-            //next scene!
+            //Next scene, you won
+            ControlDialogue.currentDialogueID = "Snowday_4";
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
@@ -48,6 +61,8 @@ public class MiniGameManager : MonoBehaviour
         UIuncover.SetActive(true);
 
         timer = 0;
+
+        auxCam.GetComponent<CameraMovement>().targetPosition = new Vector3(0, -8, -10);
     }
 
     public void LeaveCover()
@@ -56,18 +71,28 @@ public class MiniGameManager : MonoBehaviour
 
         UIcover.SetActive(true);
         UIuncover.SetActive(false);
+
+        auxCam.GetComponent<CameraMovement>().targetPosition = new Vector3(0, 0, -10);
     }
 
     public void TakeDamage()
     {
         if (!covered)
         {
+            Hit.GetComponent<Animator>().SetTrigger("Hit");
             health.value--;
         }
 
         if (health.value < 0)
         {
-            //next scene!
+            //Next scene, you failed
+            ControlDialogue.currentDialogueID = "Snowday_3";
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    public void UpdateUIammo()
+    {
+        UIammo.text = "x" + ammo.ToString();
     }
 }

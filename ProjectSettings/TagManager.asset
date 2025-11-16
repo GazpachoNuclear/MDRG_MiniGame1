@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - DialogueManager
+  - MiniGameManager
+  - PersistanceManager
   layers:
   - Default
   - TransparentFX

@@ -31,8 +31,10 @@ public class TargetBehaviour : MonoBehaviour
 
     public void Eliminate()
     {
-        if (manager.ammo > 0)
+        if (manager.ammo > 0 && !manager.covered)
         {
+            manager.ammo--;
+            manager.UpdateUIammo();
             Destroy(this.gameObject);
         }
     }

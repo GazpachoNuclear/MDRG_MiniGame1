@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector" at "2025-11-09T06:46:58.4564183Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector" at "2025-11-16T09:29:32.9685896Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-09T06:46:58Z
+Date: 2025-11-16T09:29:32Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.2.6f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/factorial-omega-win-64/MiniGame2D/MDRG-mini2D/MDRG_MiniGame1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53474
+54368
 -licensingIpc
 LicenseClient-Hector
 -job-worker-count
@@ -65,27 +65,27 @@ D:/factorial-omega-win-64/MiniGame2D/MDRG-mini2D/MDRG_MiniGame1
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3544]  Target information:
+Player connection [244]  Target information:
 
-Player connection [3544]  * "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 1604735209 [EditorId] 1604735209 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G081KS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [244]  * "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3492780846 [EditorId] 3492780846 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G081KS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3544] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [244] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18248, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10000, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              6dcdace0c02e41b48c3f0f71fdba66e6
-  Correlation Id:          5c7fa5d42ca7aa34b9a356f05af941ae
-  External correlation Id: 1815585544907509269
+  Session Id:              cc5e60da9e354ae99a54f0e654b53e77
+  Correlation Id:          cba03fd7140fa282b43254cf34a8b9ce
+  External correlation Id: 1912912754483347800
   Machine Id:              XT8v1AEGxaRv6DD9oeST8EnIHBY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Hector" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector-notifications" at "2025-11-09T06:46:58.5391568Z"
-[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Hector" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Hector-notifications" at "2025-11-16T09:29:33.0306719Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
@@ -111,9 +111,10 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -122,41 +123,42 @@ Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngine
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: D:/Unity/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.028190 seconds.
-- Loaded All Assemblies, in  0.633 seconds
+Registered in 0.033153 seconds.
+- Loaded All Assemblies, in  0.618 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 355 ms
+Android Extension - Scanning For ADB Devices 341 ms
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.953 seconds
-Domain Reload Profiling: 1573ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1475ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (52ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (194ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (180ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (209ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (206ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (954ms)
+	FinalizeReload (871ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (892ms)
+		SetupLoadedEditorAssemblies (810ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (507ms)
+			InitializePlatformSupportModulesInManaged (500ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,1439 +168,204 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.375 seconds
-Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.324 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.216 seconds
-Domain Reload Profiling: 2564ms
-	BeginReloadAssembly (288ms)
+- Finished resetting the current domain, in  1.606 seconds
+Domain Reload Profiling: 2902ms
+	BeginReloadAssembly (283ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
+		CreateAndSetChildDomain (40ms)
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (912ms)
-		LoadAssemblies (650ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (873ms)
+		LoadAssemblies (641ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (418ms)
-			TypeCache.Refresh (309ms)
-				TypeCache.ScanAssembly (285ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1217ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (257ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (996ms)
+		SetupLoadedEditorAssemblies (1380ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (538ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (823ms)
+			ProcessInitializeOnLoadMethodAttributes (307ms)
+			AfterProcessingInitializeOnLoad (30ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6801 unused Assets / (9.0 MB). Loaded Objects now: 7491.
-Memory consumption went from 142.8 MB to 133.9 MB.
-Total: 16.161400 ms (FindLiveObjects: 0.775800 ms CreateObjectMapping: 1.285800 ms MarkObjects: 7.758500 ms  DeleteObjects: 6.340000 ms)
+Unloading 6801 unused Assets / (7.3 MB). Loaded Objects now: 7491.
+Memory consumption went from 143.0 MB to 135.7 MB.
+Total: 16.187200 ms (FindLiveObjects: 0.851700 ms CreateObjectMapping: 1.351800 ms MarkObjects: 7.027900 ms  DeleteObjects: 6.954500 ms)
 
 ========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6789 unused Assets / (6.4 MB). Loaded Objects now: 7492.
+Memory consumption went from 142.4 MB to 136.0 MB.
+Total: 19.294600 ms (FindLiveObjects: 2.384500 ms CreateObjectMapping: 1.491600 ms MarkObjects: 9.319600 ms  DeleteObjects: 6.097500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 10172.602378 seconds.
+  Time since last request: 80976.963097 seconds.
+  path: Assets/Scripts/SpecificEvents/PersistanceManager.cs
+  artifactKey: Guid(1e6a4ae49d9bde94d99dc551713b67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpecificEvents/PersistanceManager.cs using Guid(1e6a4ae49d9bde94d99dc551713b67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a677ad48dbda1248a36b3205e42804c') in 0.0075018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.299 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.173 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (798ms)
+		LoadAssemblies (644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (262ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (254ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6800 unused Assets / (6.7 MB). Loaded Objects now: 7498.
+Memory consumption went from 146.5 MB to 139.8 MB.
+Total: 14.709600 ms (FindLiveObjects: 0.845200 ms CreateObjectMapping: 1.416500 ms MarkObjects: 8.119400 ms  DeleteObjects: 4.327100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.256362 seconds.
   path: Assets/2D/Characters/Jun/JunRigged.prefab
   artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abe91c23d40c18a7f6ef61a0b4f11c57') in 0.6154762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 593
+Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8b093d2ce0e04410a6745caa79f53b') in 0.8338381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.124970 seconds.
+  Time since last request: 20.130456 seconds.
   path: Assets/2D/Characters/Jun/JunRigged.prefab
   artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4937bdcf2144a367d040d603df94a96b') in 0.0477422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.323886 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb9c83ad56ab3df3a8c09c833cb1ceb') in 0.0481081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.887127 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5403fb154b584a4f79acfcb3a8e176ba') in 0.0481631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.672086 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd60d775aa657a6e11fd11f6fd84a52b5') in 0.0425554 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.377454 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60f4404dcabb14ed0fed09d5f466164d') in 0.0444636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.515608 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc0c0235e5ead8528a4b21e24a489cc') in 0.045073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.796921 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7eda353ee37194d29c5d416006c2ea7') in 0.0450715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.649808 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c0377478924939914adb6fa5b8841a8') in 0.0460461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.806277 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da4e6146fe2e770ecf9b2c3ebeda383') in 0.0438589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.607668 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd10726e08fb6fd85b3435b06eaea08bd') in 0.0450659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.821925 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '562d21f633f7c5f21d62d2c1db3be44b') in 0.0447634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.388617 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e20fa57b83ca53cd2a13efe097defa6e') in 0.0427403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.631500 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '626a6fde4aebba2d8145b9a9ee1e011c') in 0.0473038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.473982 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2905cbf46a278db625ac3f8f74aa3658') in 0.0451014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.829016 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c7ad634aeae54b8a9dd820d6e93ae71') in 0.0467986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.847301 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dcfe235c1e3129b5836a7a9b8232418') in 0.0446274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.899065 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63fc9ce9f2dba0e32f392c38ca52a01e') in 0.0428098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.524577 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '984c88109872a828ac8598a9020f35ba') in 0.0435543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.074679 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6145d80db4a78ee75bfdc3aefb2dea') in 0.0479894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.402274 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03e7093be6f7e9006fab186aaa0a4723') in 0.0438732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.502519 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1403929a0447c45d197b671c544cde76') in 0.0407788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.330453 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58bde166164b45885aad24a9cb2f73b') in 0.0428761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.861178 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd9bb3095d9666999cbb0648e0e80edb') in 0.0466218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 594
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.483718 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a9452d8d23b5e5e05f47efe05de68e6') in 0.0453456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 593
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.567123 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6db860de4d1649e8004229f4f7deb7a') in 0.0443729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 592
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.002754 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f24564d0405cc82a6c7889fc33401b6') in 0.044523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 591
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.800476 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6748e67fdb28bcc7df9485e103543532') in 0.0467669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 590
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.968653 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '391017f811a75250c857279e8f4e309f') in 0.0501114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 589
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.223905 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2434a68270ee90268ae199bd0fda814e') in 0.0482056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 588
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.049903 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66265b6138712ae4e5b2eb3b94e1cf3e') in 0.0442361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 587
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.339266 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35acabae60d2263753f67a1cdfbfa3f9') in 0.0442446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 586
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.538753 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d7c151b7710a2f334fcdb3d52d2713c') in 0.0466614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 585
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.137760 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cceb95cbd93d15336c803878e0c26f85') in 0.0430899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 584
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.928420 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a233c903625e3585782d0530a532980f') in 0.0515703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 583
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.422138 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9bfbd09e85a3763a6e23f2ee9c45cd') in 0.0443048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 582
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.222109 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '688c30c317d07fb7f71f5111e9c4ece0') in 0.045762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 581
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.717467 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be6d605a9dac049c64bd79d6156b2fa1') in 0.0470754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 580
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.808630 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca60efb1be918c40939953157386229b') in 0.0516422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 579
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.449740 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be593d603d686473c22c3db6e346318d') in 0.0437192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 578
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.203466 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '918b689090e180002979774a98dfdee5') in 0.042006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 577
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.350388 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b0667c05f2e13345c98b0314699a780') in 0.0449355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.534231 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd90d1d94605864fbed293b5391a35487') in 0.0480617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.244785 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d20831bfe403013a247641fa50469cc') in 0.0406892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.300336 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d6060b5d0d8d79c1b66ff1388eef49') in 0.0454606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.218087 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b82504ecf636fc769301177d808283b') in 0.0423788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.012698 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e0ff1a9b796ffdcb49f0600e1c1242c') in 0.0427317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.141308 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '622bd0ce97c123a3e0dd7e83c737e80c') in 0.0416426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.893080 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764b769e074e7a64b12250da2abf381f') in 0.0432262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.525217 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285a0564abe4bf93c928ae72055a9085') in 0.0455924 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.781757 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f875a78b734223cfe381e3f59d999c0') in 0.0445083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.801094 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a15e2b2c56f4eedfd2eb3ef3cf6feb6a') in 0.0443256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.575005 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0aa1c208d2fbe2f555490de95509680') in 0.041018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 576
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.467611 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba20c7212a3990f12332a9b70b9b966') in 0.0448546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 578
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.480976 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27a5cf8bd8d3328669a9afe4020c8d16') in 0.0422055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 578
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.149321 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e85e10af7b3657e3aed010f6cf5468') in 0.0411384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 578
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.372642 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c44aff957719f2f16d562e8ac679d8e2') in 0.0432602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 578
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.162754 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '133bf2864bf886e1abd09e1935b060d2') in 0.0427979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 573
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.365780 seconds.
-  path: Assets/2D/Characters/Jun/BodyPartsExtra/tex 3 - interaction_texture0_layer0.png
-  artifactKey: Guid(94c47961483331a4599c737f59a4f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Characters/Jun/BodyPartsExtra/tex 3 - interaction_texture0_layer0.png using Guid(94c47961483331a4599c737f59a4f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: 'ce251135acb0fc057abaa1bd62dd5ee1') in 0.0692995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 2583.818943 seconds.
-  path: Assets/Animations/JunRigged/AngrySpeak.anim
-  artifactKey: Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/AngrySpeak.anim using Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9550ba21ec90da2f780d09bbece47df0') in 0.0039226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.535516 seconds.
-  path: Assets/Scenes/Test.unity
-  artifactKey: Guid(416853d28f94f5949b0649e290974f1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Test.unity using Guid(416853d28f94f5949b0649e290974f1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '790b8c89c54d35b078da168a291123da') in 0.2306238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D/Characters/Jun/BodyPartsExtra/tex 3 - interaction_texture0_layer0.png
-  artifactKey: Guid(94c47961483331a4599c737f59a4f7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/BodyPartsExtra/tex 3 - interaction_texture0_layer0.png using Guid(94c47961483331a4599c737f59a4f7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e77322cfe49552b27e3ecd8610c5d4a') in 0.1303263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Animations/JunRigged/IdleSad.anim
-  artifactKey: Guid(707549b74e1b7e54da0fa70a283e7295) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleSad.anim using Guid(707549b74e1b7e54da0fa70a283e7295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1f92719e02002ac412154345b2b24b0') in 0.0142757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animations/JunRigged
-  artifactKey: Guid(1abc4cecae48a54458fb73f51fb404c1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged using Guid(1abc4cecae48a54458fb73f51fb404c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '370faca34078abe1ccabb597ce25c9bc') in 0.00403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animations/JunRigged/AngrySpeak.anim
-  artifactKey: Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/AngrySpeak.anim using Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '718f24f951efb41a98e955e99f0e86d8') in 0.0080843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4aebe64e1f0ce0512d3fbe21076584d8') in 0.027318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.821987 seconds.
-  path: Assets/Animations/JunRigged/SpeakAngry.anim
-  artifactKey: Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakAngry.anim using Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03fbf830e0d52ec58a4d746c97658e7a') in 0.0025176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.870219 seconds.
-  path: Assets/Animations/JunRigged/SpeakAngry.anim
-  artifactKey: Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakAngry.anim using Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75d4f813db9b39af91b92af15d57769a') in 0.0075899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.930045 seconds.
-  path: Assets/Animations/JunRigged/NormalSpeak.anim
-  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/NormalSpeak.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2129b7a408971641e1d3fa3e85eb5bf') in 0.0025328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.492890 seconds.
-  path: Assets/Animations/JunRigged/SpeakNormal.anim
-  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakNormal.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102fc793f0948117cf75641d3f308191') in 0.0027655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.870369 seconds.
-  path: Assets/Animations/JunRigged/SpeakNormal.anim
-  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakNormal.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '765e4452896dccb8161a6f5bc4ea1973') in 0.0091565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Animations/JunRigged/SadSpeak.anim
-  artifactKey: Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SadSpeak.anim using Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4ef3885ea477843735666829e4384f1') in 0.002282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.814258 seconds.
-  path: Assets/Animations/JunRigged/SpeakSad.anim
-  artifactKey: Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakSad.anim using Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d05bf934b925232f6ad1feb19ff03c2') in 0.0024276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.874219 seconds.
-  path: Assets/Animations/JunRigged/SpeakSad.anim
-  artifactKey: Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakSad.anim using Guid(d595939d7007e2f4c99a1dcd3552575d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0d625722d6092d8ddecc5b5217d2cf2') in 0.0095165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.119115 seconds.
-  path: Assets/Animations/JunRigged/Idle.anim
-  artifactKey: Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/Idle.anim using Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39df5a9caec6e1725de9784a58eceae5') in 0.0017565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.512633 seconds.
-  path: Assets/Animations/JunRigged/IdleNormal.anim
-  artifactKey: Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleNormal.anim using Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1caf98325c6fe9e6a4581d944b3b9be3') in 0.0017038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.857869 seconds.
-  path: Assets/Animations/JunRigged/IdleNormal.anim
-  artifactKey: Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleNormal.anim using Guid(a6d74349e9d8197438fb5ae6ad3638bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c87903801c0b4a5b8426044c4d7471b') in 0.0071021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.211969 seconds.
-  path: Assets/Animations/JunRigged/IdleSad.anim
-  artifactKey: Guid(707549b74e1b7e54da0fa70a283e7295) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleSad.anim using Guid(707549b74e1b7e54da0fa70a283e7295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb1b4e82b04f9fb6cd1cbc3768f606e7') in 0.0076249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Animations/JunRigged/IdleHappy.anim
-  artifactKey: Guid(557717d474dde6a4789ba98a7b5f1655) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleHappy.anim using Guid(557717d474dde6a4789ba98a7b5f1655) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc17b10ade09f8a77bce5753a51f5166') in 0.0092349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.635328 seconds.
-  path: Assets/Animations/JunRigged/SpeakHappy.anim
-  artifactKey: Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakHappy.anim using Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c281c847e32b3faefa8e0c436b65cfd') in 0.0066343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.024462 seconds.
-  path: Assets/Animations/JunRigged/ActuallyRight.anim
-  artifactKey: Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/ActuallyRight.anim using Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b40ef57668a3a476d4ee7c063a5f96b5') in 0.008961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.608350 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bfb0c28c9435c8f0aac6c41eabb6398') in 0.0832781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 658
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.833956 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '470c18f5395ffabbc1e561f63617501a') in 0.0490171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 658
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.593119 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a1378c8e8ea9608ccb8634dd4c7bee0') in 0.0425833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 658
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.559893 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85537ffc834943c042379587017d2fbb') in 0.0455078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 658
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.033835 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40123fc7f2782dba8a5dfa1387167dde') in 0.0464259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 658
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.881668 seconds.
-  path: Assets/Animations/JunRigged/ActuallyRight.anim
-  artifactKey: Guid(e9e64f27da311184690e332b9175773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/ActuallyRight.anim using Guid(e9e64f27da311184690e332b9175773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ce48099d71b859ca845d7e71cab0cfe') in 0.0019381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.103312 seconds.
-  path: Assets/Animations/JunRigged/SpeakActually.anim
-  artifactKey: Guid(e9e64f27da311184690e332b9175773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakActually.anim using Guid(e9e64f27da311184690e332b9175773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58d975f8eb16922f0b2aec485f63959') in 0.0021715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.871061 seconds.
-  path: Assets/Animations/JunRigged/SpeakActually.anim
-  artifactKey: Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakActually.anim using Guid(e9e64f27da311184690e332b9175773c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cb572c3b624b0e87448ae038b4fd6dc') in 0.0100707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.717334 seconds.
-  path: Assets/Animations/JunRigged/IdleActually.anim
-  artifactKey: Guid(db25fec06921e5a429124578a6e15d12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleActually.anim using Guid(db25fec06921e5a429124578a6e15d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cb9e6d10c043578d186646fb9b01901') in 0.0070759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.968954 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88d5be028ba24038630a232b3606a729') in 0.0195522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.377690 seconds.
-  path: Assets/Animations/JunRigged/Hello.anim
-  artifactKey: Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/Hello.anim using Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf8f1deee4c4463548333caa31e342fd') in 0.006955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.557855 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aba46a0cab57180a9670f37bf1bd9f89') in 0.0459545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 664
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.640631 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab33b846db85fc634e527c53dc12a94') in 0.0471029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 664
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.599142 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1640b691660653983926b13d39b4abf0') in 0.0494126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 664
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.365253 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57a49f17821b617c5bd9b8ccb8a97ad6') in 0.0174619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.397895 seconds.
-  path: Assets/Animations/JunRigged/IdleCalmDown.anim
-  artifactKey: Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/IdleCalmDown.anim using Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06eda8e208f59db73ae5e93f34920b67') in 0.0070519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.198980 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b0a27a65c4b058129ce453d518fa868') in 0.0537873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.283788 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfadb52a078b15d0a85d3844a3ff19e1') in 0.0518282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.246237 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebc464469031f5a03f13c1220771a10e') in 0.0593147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.767176 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18614ebc1b624e6774a68821fda5febd') in 0.0445749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.899319 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c1084f8e665b6216ab4515573f152d5') in 0.0458492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.589261 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fac50f8c088babc9bf8ce17702163c9a') in 0.0435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 177.947334 seconds.
-  path: Assets/Animations/JunRigged/SpeakCalmDown.anim
-  artifactKey: Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakCalmDown.anim using Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9db216380cbfdf74070f2d73e53dd61e') in 0.0133069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.086934 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '150d2943ca0a2026623275c57351ad17') in 0.05077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 666
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.855637 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd33558e8b41144d34f9712b41abe8983') in 0.0243562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.551743 seconds.
-  path: Assets/Animations/JunRigged/LookLeft.anim
-  artifactKey: Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookLeft.anim using Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f46a45a44f4ab44a363ecc0f6ba06736') in 0.0076157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.263174 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '348ea32758428b37b10d6d916c10992a') in 0.0278738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.783377 seconds.
-  path: Assets/Animations/JunRigged/LookRight.anim
-  artifactKey: Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookRight.anim using Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50c96151ecb75e9791ffb15ed5ea8422') in 0.0102171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.341425 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33758d45c23f45208a8d34e3d347d713') in 0.0204343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.718080 seconds.
-  path: Assets/Animations/JunRigged/LookUp.anim
-  artifactKey: Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookUp.anim using Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd95eb9b908fe8cbf006f335f2fe89f5a') in 0.0068319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.190573 seconds.
-  path: Assets/Animations/JunRigged/LookUp.anim
-  artifactKey: Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookUp.anim using Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b16e95d43507ab74652ee9d18f30c1b5') in 0.0084439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.328856 seconds.
-  path: Assets/Animations/JunRigged/LookDown.anim
-  artifactKey: Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookDown.anim using Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '841bb7981774278f90b5a1f5bb7a905f') in 0.0091044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.607712 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '162bdac0e358bf3396e8e084a4a82db5') in 0.0247056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.435154 seconds.
-  path: Assets/Animations/JunRigged/PointLeft.anim
-  artifactKey: Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/PointLeft.anim using Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64212d4ce2d06d85d1461fe6c2f13cc3') in 0.007411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.476656 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13dd3a7ba97042b50961fa3fa9a7dbe6') in 0.0629673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 678
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.716074 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb974672940f5c7f0fa606c1d66b69f6') in 0.053925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 678
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.378434 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointLeft.anim
-  artifactKey: Guid(0490b736c4afa354fb8510e42745ef98) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakPointLeft.anim using Guid(0490b736c4afa354fb8510e42745ef98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e432469a2fc903627089f08c29b9da21') in 0.0086944 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.459305 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointLeft.anim
-  artifactKey: Guid(0490b736c4afa354fb8510e42745ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakPointLeft.anim using Guid(0490b736c4afa354fb8510e42745ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '691e361c25d516e16a94d44118412420') in 0.0018901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.804835 seconds.
-  path: Assets/Animations/JunRigged/PointLeft.anim
-  artifactKey: Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/PointLeft.anim using Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16b78071459fdd144191bccc871c1ee4') in 0.0016054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.887829 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointLeft.anim
-  artifactKey: Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakPointLeft.anim using Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ec22e08cb4f5fed43d0f93901becf2') in 0.0018325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.866216 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointLeft.anim
-  artifactKey: Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakPointLeft.anim using Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f7a11850aa6b82afb51ef6b9ad82611') in 0.0071146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.358921 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '121e664937cdb6bee9bceeb9e2f43848') in 0.0209348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.490879 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d0b5577bda45385543d39ba7b1bdf4c') in 0.0533912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 681
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.118177 seconds.
-  path: Assets/Animations/JunRigged/Hello.anim
-  artifactKey: Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/Hello.anim using Guid(3d50ca7aefa0cc043a554eecd48b89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '079f70fc31f14a282db921974a4e1e3e') in 0.0017849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.828964 seconds.
-  path: Assets/Animations/JunRigged/IdleActually.anim
-  artifactKey: Guid(db25fec06921e5a429124578a6e15d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleActually.anim using Guid(db25fec06921e5a429124578a6e15d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e199cc55a8ff2093885956290b643fba') in 0.0016823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.995627 seconds.
-  path: Assets/Animations/JunRigged/IdleAngry.anim
-  artifactKey: Guid(6a86e77a896c6514d8404f9abc91b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleAngry.anim using Guid(6a86e77a896c6514d8404f9abc91b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f8c3215d18aa9c03d8a292f2a03b64b') in 0.0019604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.833175 seconds.
-  path: Assets/Animations/JunRigged/IdleCalmDown.anim
-  artifactKey: Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleCalmDown.anim using Guid(d2a0ad627a45b2b4683de90259bfe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76601895759021cbbdf8c70d3b0d20e2') in 0.0021551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.017075 seconds.
-  path: Assets/Animations/JunRigged/IdleHappy.anim
-  artifactKey: Guid(557717d474dde6a4789ba98a7b5f1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleHappy.anim using Guid(557717d474dde6a4789ba98a7b5f1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100c4c2a307955649ac3890eec5f2490') in 0.0016965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.348367 seconds.
-  path: Assets/Animations/JunRigged/IdleSad.anim
-  artifactKey: Guid(707549b74e1b7e54da0fa70a283e7295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/IdleSad.anim using Guid(707549b74e1b7e54da0fa70a283e7295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '922a23e239bb55f57f744057df95ca2f') in 0.0018468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.690795 seconds.
-  path: Assets/Animations/JunRigged/LookDown.anim
-  artifactKey: Guid(2b22040b82c62204e855317931240d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/LookDown.anim using Guid(2b22040b82c62204e855317931240d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f3a7adcc3dce9bfd2a5664016a442a') in 0.0018416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.317642 seconds.
-  path: Assets/Animations/JunRigged/LookLeft.anim
-  artifactKey: Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/LookLeft.anim using Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479849a0b268d0eba06cda7de58dab71') in 0.0018577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.802108 seconds.
-  path: Assets/Animations/JunRigged/LookRight.anim
-  artifactKey: Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/LookRight.anim using Guid(6cad34b5278df4640b6b9233d22e42d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b67ef1acf54bc6a161b8cfeca3ca77') in 0.0019962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.500326 seconds.
-  path: Assets/Animations/JunRigged/LookUp.anim
-  artifactKey: Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/LookUp.anim using Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97fd80523aac3afd2bfd9456fafc0c20') in 0.0019002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.672447 seconds.
-  path: Assets/Animations/JunRigged/SpeakCalmDown.anim
-  artifactKey: Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakCalmDown.anim using Guid(40f27877a2a0cfa4387ced0b9ecae8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb040070b62b3b9c28b2388e6cf83ef8') in 0.002588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.014138 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointRight.anim
-  artifactKey: Guid(7bdc85b3d0148bf488fb80f621e28ee4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakPointRight.anim using Guid(7bdc85b3d0148bf488fb80f621e28ee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abe5233540639a2c2e0c7e49b078901f') in 0.0078022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.133574 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35f45bff001096dca4f1dd2c1403625b') in 0.051335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 681
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.805293 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8527f64599678548d7e88480b3653a0') in 0.0573027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 681
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.245848 seconds.
-  path: Assets/Animations/JunRigged/LookUp.anim
-  artifactKey: Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookUp.anim using Guid(120e65c9da0a24d419c9e245a4158bb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83b6432f128a924bcd7d5ecdb1ea1624') in 0.007971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointRight.anim
-  artifactKey: Guid(7bdc85b3d0148bf488fb80f621e28ee4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakPointRight.anim using Guid(7bdc85b3d0148bf488fb80f621e28ee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e30dbc18e169445f1e0cd88d62ed6aaa') in 0.0308437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Animations/JunRigged/LookLeft.anim
-  artifactKey: Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookLeft.anim using Guid(1d8e89ef02d8acb43bbc0c3ab35a5d1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f618d136f98c9efc9beed352bdc0e25') in 0.0084225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animations/JunRigged/LookDown.anim
-  artifactKey: Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/LookDown.anim using Guid(2b22040b82c62204e855317931240d74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c58e239cfb38bc01386e2cb3f512bec') in 0.0066095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animations/JunRigged/SpeakHappy.anim
-  artifactKey: Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakHappy.anim using Guid(9366460cb9e6a3a4983020b3ef63aa40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2018c3b69253eea9f26ea6c71797100') in 0.0119442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animations/JunRigged/SpeakAngry.anim
-  artifactKey: Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakAngry.anim using Guid(2bea8fadd4765f441b551fbd7477b6b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be26ca20c6a7be5ad2f7ccebc47d3f47') in 0.0076368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Animations/JunRigged/SpeakPointLeft.anim
-  artifactKey: Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakPointLeft.anim using Guid(a2fe4589bf04fa14f84be25008ec94d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9c7cc67e2c124c8227fd0aff23c148e') in 0.0068019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.754948 seconds.
-  path: Assets/Animations/JunRigged/GunsUp.anim
-  artifactKey: Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/GunsUp.anim using Guid(ba764379215e97e47af76f62f95c63f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '191e31456b0f383205178e6630d8ba1f') in 0.007152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.782030 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9417225a28aad684f0741a26b991514') in 0.058064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 683
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.502160 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36a8d1e1074b55530d93e00f28356be9') in 0.0548281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 683
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.806167 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38e7e1d73ff10b6b6ef31109f3ca3d62') in 0.0698361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 683
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.286307 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4667e92720c356454ae574b1b435af40') in 0.0570934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 683
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.002801 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ea5810bae4ab5fe1c3e7a6a9c5d9019') in 0.0285404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.956413 seconds.
-  path: Assets/Animations/JunRigged/GunsUp.anim
-  artifactKey: Guid(ba764379215e97e47af76f62f95c63f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/GunsUp.anim using Guid(ba764379215e97e47af76f62f95c63f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b00d8b2a70c79d50b184f8ce38d357') in 0.0026483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.882064 seconds.
-  path: Assets/Animations/JunRigged/Think.anim
-  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/Think.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b322628ec00e57be60b3401cc01aabd1') in 0.0088937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.909956 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '642d215cfb89a4095f63f62e16d8c50b') in 0.0728299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.517281 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58d348ee196ec62c2a7316035c1d344f') in 0.0561811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.611791 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44b5f3defeff509b90a6eb2d9ccebf79') in 0.0550298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.671651 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a738c8285459b9e72338815242853ee') in 0.0275153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.625954 seconds.
-  path: Assets/Animations/JunRigged/Think.anim
-  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/Think.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd83c8ef4899fefbbec524afd04172cff') in 0.0023534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.649335 seconds.
-  path: Assets/Animations/JunRigged/SpeakThink.anim
-  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakThink.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d10f10890b3fe7b369156c48058162') in 0.0024939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.871805 seconds.
-  path: Assets/Animations/JunRigged/SpeakThink.anim
-  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakThink.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3854c8ee38d613976600763614aa557') in 0.0075906 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.339293 seconds.
-  path: Assets/Animations/JunRigged/SpeakThink.anim
-  artifactKey: Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/SpeakThink.anim using Guid(53b9c5787734dba43ad565a4267a090c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8764b58cbad6c03280aaf9a066d7a04d') in 0.0089412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.746188 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fcfccdf9393e544f753e2ee0fe79407') in 0.0548072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.668755 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ffe52a2c348f30c1a74b3f62d495e75') in 0.0598111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.079839 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7bcef4a3102a44dad2f80874715c1d9') in 0.0619482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.286327 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ebeb0731945b21392d963de8c650fc5') in 0.0629754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.289138 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '828a176b18360ac5766a8ca65e4929f3') in 0.0527257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.959133 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1513ad1afb248d284fe31b132a89bde') in 0.0528447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.469479 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ac2ba89c2696379596fa1622dbbe025') in 0.0528254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.733433 seconds.
-  path: Assets/2D/Characters/Jun/JunRigged.prefab
-  artifactKey: Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8191eb4aa91c8d64143361db9591cd2') in 0.0531636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 687
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.817850 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96ad197309c5a717d97b7afda9496178') in 0.0192696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.111000 seconds.
-  path: Assets/Animations/JunRigged/SpeakNormal.anim
-  artifactKey: Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/SpeakNormal.anim using Guid(1855d549e5f9f2d48887a4898e861746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '337a634bfb8d2e7ecbbd5d11c29c2bc1') in 0.0022685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 398.205412 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb95e7d1f59c361a592dc759c2ecbe5c') in 0.0195542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.275262 seconds.
-  path: Assets/Animations/JunRigged/JunRigged.controller
-  artifactKey: Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/JunRigged/JunRigged.controller using Guid(3df5177281125a247b08f4963c71d027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db3bed7d414e0de2c2006c2301598608') in 0.0267473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+Start importing Assets/2D/Characters/Jun/JunRigged.prefab using Guid(47c8529824ec550488a8098e13d87c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40573e460be3956b268f01e6691a507f') in 0.104477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 714
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.426 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.204 seconds
+Domain Reload Profiling: 2607ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (883ms)
+		LoadAssemblies (745ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6800 unused Assets / (6.5 MB). Loaded Objects now: 7532.
+Memory consumption went from 153.5 MB to 147.0 MB.
+Total: 12.074600 ms (FindLiveObjects: 0.775600 ms CreateObjectMapping: 0.659600 ms MarkObjects: 7.039600 ms  DeleteObjects: 3.598500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 506.821757 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73f162d544f892fdda52e0247b333c29') in 0.003981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 AssetImportWorkerClient::OnTransportError - code=10054 error=Se ha forzado la interrupción de una conexión existente por el host remoto.
