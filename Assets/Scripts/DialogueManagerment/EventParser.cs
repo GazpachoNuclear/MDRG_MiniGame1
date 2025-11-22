@@ -159,7 +159,7 @@ public class EventParser : MonoBehaviour
     private void SpriteChangeObject(string name, string parameters)
     {
         GameObject target = FindObject(name);
-        target.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Visuals/CharactersCloseUp/" + parameters);
+        target.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Visuals/Sprites/" + parameters);
     }
 
     private void AnimateObject(string name, string parameters)

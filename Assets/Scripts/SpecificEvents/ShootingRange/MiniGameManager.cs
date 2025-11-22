@@ -83,7 +83,7 @@ public class MiniGameManager : MonoBehaviour
             health.value--;
         }
 
-        if (health.value < 0)
+        if (health.value <= 0)
         {
             //Next scene, you failed
             ControlDialogue.currentDialogueID = "Snowday_3";

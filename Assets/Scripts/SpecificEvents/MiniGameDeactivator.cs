@@ -6,5 +6,6 @@ public class MiniGameDeactivator : MonoBehaviour
     void Start()
     {
         GameObject.FindGameObjectWithTag("PersistanceManager").GetComponent<PersistanceManager>().activatePersistents();
+        GameObject.FindGameObjectWithTag("DialogueManager").GetComponent<ControlDialogue>().StartDialogue();
     }
 }

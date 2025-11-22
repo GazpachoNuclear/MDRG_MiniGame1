@@ -7543,7 +7543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8008991120363362200}
   m_Layer: 0
-  m_Name: Eyes
+  m_Name: JunEyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
