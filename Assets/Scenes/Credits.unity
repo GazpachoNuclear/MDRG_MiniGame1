@@ -610,6 +610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425632007}
   - component: {fileID: 425632006}
+  - component: {fileID: 425632008}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -644,6 +645,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &425632008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425632005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5d27c0f82bdd54a84d28e8e6bc07a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditsManager
+  contents: {fileID: 528800271}
 --- !u!1 &469013698
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +948,8 @@ GameObject:
   - component: {fileID: 522893537}
   - component: {fileID: 522893539}
   - component: {fileID: 522893538}
+  - component: {fileID: 522893540}
+  - component: {fileID: 522893541}
   m_Layer: 5
   m_Name: FalseFade
   m_TagString: Untagged
@@ -998,6 +1014,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522893536}
   m_CullTransparentMesh: 1
+--- !u!95 &522893540
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522893536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68ce9771c040449438246c66a782fa0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &522893541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522893536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb367e8d0ea52f499237135e50ee79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NextText
+  manager: {fileID: 425632008}
 --- !u!1 &528800271
 GameObject:
   m_ObjectHideFlags: 0

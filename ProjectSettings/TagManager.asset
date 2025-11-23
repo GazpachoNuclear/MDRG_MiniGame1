@@ -8,6 +8,7 @@ TagManager:
   - DialogueManager
   - MiniGameManager
   - PersistanceManager
+  - Persistent
   layers:
   - Default
   - TransparentFX
