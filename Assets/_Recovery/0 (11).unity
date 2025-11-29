@@ -2317,7 +2317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7867224254926456018, guid: cb34cf18436bcd34bbe5e9518c44ec69, type: 3}
       propertyPath: m_Name
-      value: YourEyes
+      value: Eyes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
