@@ -22,6 +22,11 @@ public class CinematicManager : MonoBehaviour
         manager.dialogueObject.SetActive(true);
         manager.NextLine();
 
+        DestroyElement();
+    }
+
+    public void DestroyElement()
+    {
         Destroy(this.gameObject);
     }
 

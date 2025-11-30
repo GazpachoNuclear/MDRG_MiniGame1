@@ -22,10 +22,14 @@ public class EventParser : MonoBehaviour
     {
         commands = input.Split("***");
 
+        StartCoroutine(SequencedParse(commands));
+
+        /*
+
         for (int i=0; i<commands.Length; i++)
         {
             commandSegments = commands[i].Split("_");
-
+            
             switch (commandSegments[0])
             {
                 case "Create":
@@ -102,7 +106,9 @@ public class EventParser : MonoBehaviour
                     }
                     break;
             }
-        }
+            
+    }
+        */
     }
 
     private GameObject FindObject(string name)
@@ -238,4 +244,93 @@ public class EventParser : MonoBehaviour
         this.GetComponent<ControlDialogue>().StartDialogue();
     }
 
+
+    IEnumerator SequencedParse(string[] commandSegments)
+    {
+
+        for (int i = 0; i < commands.Length; i++)
+        {
+            commandSegments = commands[i].Split("_");
+
+            switch (commandSegments[0])
+            {
+                case "Create":
+                    CreateObject(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Destroy":
+                    DestroyObject(commandSegments[1]);
+                    break;
+                case "Move":
+                    MoveObject(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Scale":
+                    ScaleObject(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Eyesmove":
+                    MoveEyes(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Spritechange":
+                    SpriteChangeObject(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Animate":
+                    AnimateObject(commandSegments[1], commandSegments[2]);
+                    break;
+                case "Changescene":
+                    ChangeScene(commandSegments[1]);
+                    break;
+                case "Playmusic":
+                    PlayMusic(commandSegments[1]);
+                    break;
+                case "PlaySFX":
+                    PlaySFX(commandSegments[1]);
+                    break;
+                case "Wait": //Not working properly because the UI button skips the waiting
+                    StartCoroutine(WaitTime(commandSegments[1]));
+                    break;
+                case "Camera":
+                    switch (commandSegments[1])
+                    {
+                        case "move":
+                            CameraMove(commandSegments[2]);
+                            break;
+                        case "rotate":
+                            CameraRotate(commandSegments[2]);
+                            break;
+                        case "zoom":
+                            CameraZoom(commandSegments[2]);
+                            break;
+                        case "tremble":
+                            CameraTremble(commandSegments[2]);
+                            break;
+                        case "trembleOff":
+                            CameraTrembleOff();
+                            break;
+                    }
+                    break;
+                case "Dialogue":
+                    switch (commandSegments[1])
+                    {
+                        case "speed":
+                            SetDialogueSpeed(commandSegments[2]);
+                            break;
+                        case "change":
+                            string targetDialogue = "";
+                            for (int j = 2; j < commandSegments.Length; j++)
+                            {
+                                targetDialogue += commandSegments[j];
+                                if (j != commandSegments.Length - 1)
+                                {
+                                    targetDialogue += "_";
+                                }
+                            }
+                            ChangeDialogue(targetDialogue);
+                            break;
+                    }
+                    break;
+            }
+
+            yield return new WaitForSeconds(1/60);
+        }
+        
+    }
 }
