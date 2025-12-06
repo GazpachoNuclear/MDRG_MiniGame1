@@ -3,7 +3,7 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
 
-    public GameObject tree;
+    public GameObject[] obstacles;
 
     private float timer;
     private float baseRandomPosition;
@@ -19,7 +19,7 @@ public class ObstacleSpawner : MonoBehaviour
             baseRandomPosition = Random.Range(-7, 7);
             for (int i=0; i < Random.Range(1, 3); i++)
             {
-                GameObject instance = Instantiate(tree, new Vector3(baseRandomPosition + (5.5f*i), 0, 0), Quaternion.identity);
+                GameObject instance = Instantiate(obstacles[Random.Range(0,obstacles.Length)], new Vector3(baseRandomPosition + (5.5f*i), 0, 0), Quaternion.identity);
                 Destroy(instance, 3f);
             }
 

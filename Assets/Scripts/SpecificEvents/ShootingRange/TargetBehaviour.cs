@@ -6,6 +6,8 @@ public class TargetBehaviour : MonoBehaviour
 
     public GameObject visual;
 
+    public GameObject hitObject;
+
     public Image countdown;
 
     private float timer = 0;
@@ -35,6 +37,10 @@ public class TargetBehaviour : MonoBehaviour
         {
             manager.ammo--;
             manager.UpdateUIammo();
+            GameObject instance = Instantiate(hitObject, this.transform.position, this.transform.rotation);
+            instance.transform.localScale = visual.transform.localScale;
+            instance.GetComponentInChildren<SpriteRenderer>().sortingOrder = visual.GetComponent<SpriteRenderer>().sortingOrder;
+            Destroy(instance, 1);
             Destroy(this.gameObject);
         }
     }

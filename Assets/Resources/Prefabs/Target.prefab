@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetBehaviour
   visual: {fileID: 592430208367789179}
+  hitObject: {fileID: 4418762472801742902, guid: 994b3b04edf7c9b4b8ceeaae9fb23268, type: 3}
   countdown: {fileID: 563387786408220836}
   manager: {fileID: 0}
 --- !u!1 &3298843298889487416

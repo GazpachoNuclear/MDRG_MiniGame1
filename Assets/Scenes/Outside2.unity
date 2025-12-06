@@ -312,6 +312,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: JunRigged
       objectReference: {fileID: 0}
+    - target: {fileID: 7218978494895263496, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.1096753
+      objectReference: {fileID: 0}
+    - target: {fileID: 7218978494895263496, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.9939675
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529837208032025539, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999947
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529837208032025539, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0032611669
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877165366191870927, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999442
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877165366191870927, guid: 893d50e4d9f3cf24e9c0d328c8e7acad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010569762
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

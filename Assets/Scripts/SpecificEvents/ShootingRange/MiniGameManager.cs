@@ -11,6 +11,7 @@ public class MiniGameManager : MonoBehaviour
     public GameObject UIcover;
     public GameObject UIuncover;
     public GameObject Hit;
+    public GameObject outOfAmmo;
 
     public Camera auxCam;
 
@@ -94,5 +95,14 @@ public class MiniGameManager : MonoBehaviour
     public void UpdateUIammo()
     {
         UIammo.text = "x" + ammo.ToString();
+
+        if (ammo == 0)
+        {
+            outOfAmmo.SetActive(true);
+        }
+        else
+        {
+            outOfAmmo.SetActive(false);
+        }
     }
 }

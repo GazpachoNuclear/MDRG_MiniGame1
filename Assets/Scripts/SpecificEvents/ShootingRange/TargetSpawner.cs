@@ -22,6 +22,16 @@ public class TargetSpawner : MonoBehaviour
             float scaleFactor = instance.transform.position.y * (-1/3.3f) * 0.5f;
             instance.GetComponent<TargetBehaviour>().visual.transform.localScale = new Vector3(scaleFactor, scaleFactor, 1);
             instance.GetComponent<TargetBehaviour>().manager = manager;
+
+            if (scaleFactor < 0.18f)
+            {
+                instance.GetComponent<TargetBehaviour>().visual.GetComponent<SpriteRenderer>().sortingOrder = 9;
+            }
+            else
+            {
+                instance.GetComponent<TargetBehaviour>().visual.GetComponent<SpriteRenderer>().sortingOrder = 11;
+            }
+
         }
 
     }
