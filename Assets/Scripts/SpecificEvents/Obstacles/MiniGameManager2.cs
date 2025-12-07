@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class MiniGameManager2 : MonoBehaviour
 {
@@ -13,6 +15,8 @@ public class MiniGameManager2 : MonoBehaviour
     public bool right;
 
     public Camera auxCam;
+
+    public Slider progress;
 
     private void Start()
     {
@@ -32,14 +36,25 @@ public class MiniGameManager2 : MonoBehaviour
             ControlDialogue.currentDialogueID = "Sled_1";
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        else
+        {
+            progress.value = 110 - timer;
+        }
 
         if (left)
         {
             moveLeft();
+            player.GetComponentInChildren<Animator>().SetBool("Left", true);
         }
         else if (right)
         {
             moveRight();
+            player.GetComponentInChildren<Animator>().SetBool("Right", true);
+        }
+        else
+        {
+            player.GetComponentInChildren<Animator>().SetBool("Left", false);
+            player.GetComponentInChildren<Animator>().SetBool("Right", false);
         }
     }
 
@@ -57,6 +72,30 @@ public class MiniGameManager2 : MonoBehaviour
         if (player.transform.position.x < 7)
         {
             player.transform.position += new Vector3(1, 0, 0) * Time.deltaTime * velocity;
+        }
+    }
+
+    public void InputL(InputAction.CallbackContext context)
+    {
+        if (context.control.IsPressed())
+        {
+            left = true;
+        }
+        else
+        {
+            left = false;
+        }
+    }
+
+    public void InputR(InputAction.CallbackContext context)
+    {
+        if (context.control.IsPressed())
+        {
+            right = true;
+        }
+        else
+        {
+            right = false;
         }
     }
 }

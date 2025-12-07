@@ -22,7 +22,7 @@ public class MiniGameManager : MonoBehaviour
     private float timer = 0;
     private float timer2 = 0;
 
-    private float playtime = 134;
+    private float playtime = 120;
 
     private void Start()
     {
@@ -94,7 +94,7 @@ public class MiniGameManager : MonoBehaviour
 
     public void UpdateUIammo()
     {
-        UIammo.text = "x" + ammo.ToString();
+        UIammo.text = ammo.ToString() + "/5";
 
         if (ammo == 0)
         {
