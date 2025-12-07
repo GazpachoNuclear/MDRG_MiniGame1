@@ -214,6 +214,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -888,6 +889,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 2054397006}
   charName: {fileID: 79384939}
   nameObject: {fileID: 712013690}
+  nameColor: {fileID: 1115132495}
   charLine: {fileID: 750344585}
   lineObject: {fileID: 1442785177}
   decisionPanel: {fileID: 361483876}
@@ -1314,6 +1316,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

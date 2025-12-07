@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ControlDialogue : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class ControlDialogue : MonoBehaviour
 
     public TMP_Text charName;
     public GameObject nameObject;
+    public Image nameColor;
 
     public TMP_Text charLine;
     public GameObject lineObject;
@@ -69,6 +71,7 @@ public class ControlDialogue : MonoBehaviour
         {
             charName.text = data.myStructuredData.rows[index].parameter[3];
             nameObject.SetActive(data.myStructuredData.rows[index].parameter[3] != "" && data.myStructuredData.rows[index].parameter[3] != null);
+            changeNameColor(data.myStructuredData.rows[index].parameter[3]);
 
             StopAllCoroutines();
             StartCoroutine(TypeSentence(data.myStructuredData.rows[index].parameter[5].Split("***")[0]));
@@ -114,7 +117,21 @@ public class ControlDialogue : MonoBehaviour
         {
             
             charLine.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
+
+            //Pauses for certain characters
+            if (letter == '.')
+            {
+                yield return new WaitForSeconds(0.35f);
+            }
+            else if (letter == ',')
+            {
+                yield return new WaitForSeconds(0.15f);
+            }
+            else
+            {
+                yield return new WaitForSeconds(typingSpeed);
+            }
+            
         }
 
         allTextButton.SetActive(false);
@@ -159,5 +176,24 @@ public class ControlDialogue : MonoBehaviour
     {
         fastPass = true;
         typingSpeed = 0;
+    }
+
+
+    private void changeNameColor(string name)
+    {
+        switch (name)
+        {
+            case "Anon":
+                nameColor.color = Color.deepSkyBlue;
+                break;
+            case "Jun":
+                nameColor.color = Color.red;
+                break;
+            default:
+                nameColor.color = Color.orange;
+                break;
+
+        }
+
     }
 }

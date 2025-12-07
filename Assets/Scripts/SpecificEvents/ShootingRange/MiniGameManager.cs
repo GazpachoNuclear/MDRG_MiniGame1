@@ -7,6 +7,7 @@ public class MiniGameManager : MonoBehaviour
 {
     public Slider health;
     public TMP_Text UIammo;
+    public TMP_Text timeLeft;
 
     public GameObject UIcover;
     public GameObject UIuncover;
@@ -51,6 +52,13 @@ public class MiniGameManager : MonoBehaviour
             //Next scene, you won
             ControlDialogue.currentDialogueID = "Snowday_4";
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            int minutes = Mathf.FloorToInt((playtime - timer2) / 60);
+            int seconds = Mathf.FloorToInt((playtime - timer2) - (minutes * 60));
+
+            timeLeft.text = minutes.ToString("00") + ":" + seconds.ToString("00");
         }
     }
 
