@@ -11035,7 +11035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc94ae4726c1d884b8ca762502c0b378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Paralalax
-  paralFactor: 1.5
+  paralFactor: 3
 --- !u!1 &1006282611
 GameObject:
   m_ObjectHideFlags: 0
@@ -11139,7 +11139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc94ae4726c1d884b8ca762502c0b378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Paralalax
-  paralFactor: 0.5
+  paralFactor: 1
 --- !u!1 &1175015225
 GameObject:
   m_ObjectHideFlags: 0
@@ -21222,7 +21222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc94ae4726c1d884b8ca762502c0b378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Paralalax
-  paralFactor: 1
+  paralFactor: 2
 --- !u!1 &1737063341
 GameObject:
   m_ObjectHideFlags: 0
